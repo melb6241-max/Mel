@@ -23,8 +23,8 @@ export const botConfig = {
     // 5 = Competing
     activities: [
       {
-        name: "Custom Status", // required by Discord API, not shown in the client
-        state: "Meow :3",     // this is what people actually see
+        name: "Mel bot", // required by Discord API, not shown in the client
+        state: "meow :3",     // this is what people actually see
         type: 4,               // Custom
       },
     ],
@@ -68,8 +68,8 @@ export const botConfig = {
 
     // Embed colors by application status.
     statusColors: {
-      pending: "#FFA500",
-      approved: "#00FF00",
+      pending: "#ede024",
+      approved: "#24d9ed",
       denied: "#FF0000",
     },
 
